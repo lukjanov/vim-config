@@ -21,6 +21,7 @@ set foldmarker={{{,}}}
 set wildmenu
 set showcmd
 set laststatus=2
+set noswapfile
 
 set hlsearch
 set ignorecase
