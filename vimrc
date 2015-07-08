@@ -11,6 +11,8 @@ set background=dark
 filetype indent plugin on
 syntax on
 
+set mouse=a
+
 set number
 set ruler
 set list
@@ -19,9 +21,13 @@ set foldmethod=marker
 set foldmarker={{{,}}}
 
 set wildmenu
+set wildmode=full
+set history=200
+
 set showcmd
 set laststatus=2
 set noswapfile
+set hidden
 
 set hlsearch
 set ignorecase
