@@ -36,6 +36,7 @@ set autoindent
 
 " Settings {{{,
 set noswapfile
+set path=.,,
 set hidden
 set history=200
 "}}}
@@ -67,4 +68,6 @@ let netrw_keepdir=0
 " Custom mappings {{{,
 map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
+" to save changes in protected file
+cmap w!! w !sudo tee % > /dev/null
 "}}}
