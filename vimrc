@@ -32,6 +32,9 @@ set foldmarker={{{,}}}
 
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 set autoindent
+
+" prevent commenting out new line after existing comment
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 "}}}
 
 " Settings {{{,
