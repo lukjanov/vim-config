@@ -29,6 +29,7 @@ set listchars=tab:▸\ ,eol:¬
 
 set foldmethod=marker
 set foldmarker={{{,}}}
+set fdo-=search " prevents searching in closed folds
 
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 set autoindent
