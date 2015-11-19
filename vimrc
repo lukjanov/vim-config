@@ -55,6 +55,9 @@ set notimeout ttimeout ttimeoutlen=200
 
 set wildmenu
 set wildmode=full
+
+set splitbelow
+set splitright
 "}}}
 
 " Search {{{,
