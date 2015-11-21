@@ -69,7 +69,8 @@ set wrapscan
 "}}}
 
 " Netrw {{{,
-let netrw_keepdir=0
+let g:netrw_keepdir=0
+let g:netrw_liststyle=3
 "}}}
 
 " Custom mappings {{{,
