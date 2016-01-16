@@ -73,6 +73,10 @@ let g:netrw_keepdir=0
 let g:netrw_liststyle=3
 "}}}
 
+" NerdTree {{{,
+map <C-n> :NERDTreeToggle<CR>
+"}}}
+
 " Custom mappings {{{,
 map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
