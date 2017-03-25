@@ -16,26 +16,22 @@ set background=dark
 "}}}
 
 " Appearance {{{,
-filetype indent plugin on
 syntax on
-
+filetype indent plugin on
 set number
 set ruler
 set nowrap
 set showcmd
 set cmdheight=2
 set laststatus=2
-
 set list
 set listchars=tab:▸\ ,eol:¬
-
 set foldmethod=marker
 set foldmarker={{{,}}}
-set fdo-=search " prevents searching in closed folds
-
+" prevent searching in closed folds
+set fdo-=search
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 set autoindent
-
 " prevent commenting out new line after existing comment
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 "}}}
@@ -50,14 +46,10 @@ set history=200
 " Behaviour {{{,
 set mouse=a
 set backspace=indent,eol,start
-
 set visualbell t_vb=
-
 set notimeout ttimeout ttimeoutlen=200
-
 set wildmenu
 set wildmode=full
-
 set splitbelow
 set splitright
 "}}}
