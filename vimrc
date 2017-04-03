@@ -20,6 +20,9 @@ syntax on
 filetype indent plugin on
 set number
 set ruler
+set cursorline
+" to center cursor vertically
+set scrolloff=999
 set nowrap
 set showcmd
 set cmdheight=2
