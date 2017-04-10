@@ -1,4 +1,4 @@
-set nocompatible
+set nocompatible"{{{"}}}
 scriptencoding utf-8
 set encoding=utf-8
 
@@ -22,7 +22,7 @@ set number
 set ruler
 set cursorline
 " to center cursor vertically
-set scrolloff=999
+" set scrolloff=999
 set nowrap
 set showcmd
 set cmdheight=2
@@ -79,4 +79,11 @@ map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
 " to save changes in protected file
 cmap w!! w !sudo tee % > /dev/null
+" to center cursor vertically while searching
+nnoremap n nzz
+nnoremap N Nzz
+nnoremap * *zz
+nnoremap # #zz
+nnoremap g* g*zz
+nnoremap g# g#zz
 "}}}
