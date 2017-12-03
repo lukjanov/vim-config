@@ -1,6 +1,6 @@
-set nocompatible"{{{"}}}
-scriptencoding utf-8
+set nocompatible
 set encoding=utf-8
+scriptencoding utf-8
 
 " Plugins {{{,
 execute pathogen#infect()
@@ -17,7 +17,7 @@ set background=dark
 
 " Appearance {{{,
 syntax on
-filetype indent plugin on
+filetype plugin indent on
 set number
 set ruler
 set cursorline
@@ -71,6 +71,7 @@ let g:netrw_liststyle=3
 "}}}
 
 " NerdTree {{{,
+let NERDTreeShowHidden=1
 map <C-n> :NERDTreeToggle<CR>
 "}}}
 
