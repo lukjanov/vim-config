@@ -3,7 +3,6 @@ set encoding=utf-8
 scriptencoding utf-8
 
 " Plugins {{{,
-execute pathogen#infect()
 runtime macros/matchit.vim
 "}}}
 
@@ -41,6 +40,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
 " Settings {{{,
 set noswapfile
+set backupcopy=yes
 set path=.,,
 set hidden
 set history=200
