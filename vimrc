@@ -48,7 +48,7 @@ set history=200
 
 " Behaviour {{{,
 set title
-set mouse=a
+set mouse-=a
 set backspace=indent,eol,start
 set visualbell t_vb=
 set notimeout ttimeout ttimeoutlen=200
