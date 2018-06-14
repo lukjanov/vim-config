@@ -34,6 +34,7 @@ set foldmarker={{{,}}}
 set fdo-=search
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 set autoindent
+let g:indentLine_fileTypeExclude = ['json']
 " prevent commenting out new line after existing comment
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 "}}}
