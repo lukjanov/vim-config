@@ -34,7 +34,6 @@ set foldmarker={{{,}}}
 set fdo-=search
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 set autoindent
-let g:indentLine_fileTypeExclude = ['json']
 " prevent commenting out new line after existing comment
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 "}}}
@@ -75,6 +74,15 @@ let g:netrw_liststyle=3
 " NerdTree {{{,
 let NERDTreeShowHidden=1
 map <C-n> :NERDTreeToggle<CR>
+"}}}
+
+" indentLine {{{,
+" prevent hiding double quotes in json
+let g:indentLine_fileTypeExclude=['json']
+"}}}
+
+" ALE {{{,
+let g:ale_fix_on_save=1
 "}}}
 
 " Custom mappings {{{,
