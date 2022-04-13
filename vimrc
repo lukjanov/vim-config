@@ -20,6 +20,7 @@ filetype plugin indent on
 set number
 set ruler
 set cursorline
+set colorcolumn=80
 " to center cursor vertically
 " set scrolloff=999
 set nowrap
