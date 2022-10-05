@@ -80,6 +80,7 @@ map <C-n> :NERDTreeToggle<CR>
 " indentLine {{{,
 " prevent hiding double quotes in json
 let g:indentLine_fileTypeExclude=['json']
+autocmd Filetype json let g:indentLine_enabled = 0
 "}}}
 
 " ALE {{{,
